@@ -1,0 +1,49 @@
+
+.display-photo {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+.display-pic {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  color: blue;
+}
+ .sidebar {
+  background-color: white;
+  width: 400px;
+
+  
+} 
+
+.maincontent {
+  padding: 30px;
+  width: 400px;
+}
+
+p {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.subtitle {
+  color: brown;
+}
+
+@media only screen and (min-width:600px) {
+  .whole {
+    display: flex;
+  }
+
+  .maincontent {
+    width: 800px;
+    background-color: white;
+  }
+
+  .sidebar {
+    background-color: aqua;
+  }
+}
